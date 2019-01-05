@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+
+}
+
+input, textarea, svg{
+	box-sizing: border-box;
+}
+
+
+html, body, body > div { height: 100% }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: CherrySwash;
+  src: 
+    local("CherrySwash"), 
+    url(fonts/CherrySwash-Regular.woff) format("woff"),
+    url(fonts/CherrySwash-Regular.ttf) format("truetype"),
+}
+
+/*@font-face {
+  font-family: Economica;
+  src: 
+    local("Economica"), 
+    url('../../fonts/Economica-Regular.woff') format("woff"),
+    url('../../fonts/Economica-Regular.otf') format("opentype");
+}*/
+
+
+.cover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 10; 
+}
+
+.flexBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.mainFlex{
+  flex: 1;
+}
+
+.inlineBlock{
+  display: inline-block;
+}
+.app-styles-app__bar--21X5U{
+   padding: 30px;
+   background-color: #69300F; 
+   width: 100%;
+}
+
+.app-styles-app__text--1ON73{
+   font-family: Arial;
+   color: #E0D4B8;
+}
+
+.app-styles-app__outerWindow--3U5jz{
+  height: 100%;
+  width:  100%;
+}
+
+.app-styles-app__innerWindow--1JRwt{
+   flex-direction: column;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+.app-styles-app__toolbar--3Rhgf{ 
+}
+
+.app-styles-app__content--21LRW{
+   padding-left: 2em;
+   padding-right: 2em;
+   flex: 1;
+   width: 100%;
+   background-color: #281209;
+}
+
+.app-styles-app__footer--XxXZg{
+}
+
+.app-styles-app__title--3BNJM{
+   font-family: CherrySwash, Verdana;
+   font-size: 2em;
+}
+
+.app-styles-app__barItem--AfznL{
+   padding: 10px;
+
+}
