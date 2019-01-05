@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px) {
+  .navItem, .title {float: none;}
+  .toolBar{position: static}
+  .content {padding-top: 0px;}
+  .display{width: 100%;}
+}
+

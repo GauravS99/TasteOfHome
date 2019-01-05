@@ -1,0 +1,12 @@
+checkmark:
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.88 18.09"><title>check</title><path d="M12,24.23,3.23,15.35l3.09-3.09L12,17.89,21.49,6.14l3.62,3.12L12,24.23Z" transform="translate(-3.23 -6.14)"/></svg>
+minus:
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.51 4.48"><title>icons</title><rect x="5.23" y="12.84" width="18.51" height="4.48" transform="translate(23.74 17.32) rotate(180)"/></svg>
+plus:
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.51 18.51"><title>icons</title><rect x="5.26" y="12.59" width="18.51" height="4.48" transform="translate(24.05 -5.26) rotate(90)"/><rect x="5.3" y="12.79" width="18.51" height="4.48" transform="translate(23.81 24.48) rotate(180)"/></svg>
+expand arrow:
+<svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.52 19.15"><title>icons</title><polygon points="14.52 10.4 7.29 0 0 10.4 5.11 10.4 5.11 19.15 9.59 19.15 9.59 10.4 14.52 10.4"/></svg>
+pause:
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.08 18.51"><title>icons</title><rect x="10.14" y="12.61" width="18.51" height="4.48" transform="translate(26.69 -10.14) rotate(90)"/><rect x="0.53" y="12.61" width="18.51" height="4.48" transform="translate(17.09 -0.53) rotate(90)"/></svg>
+play:
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.65 18.64"><title>icons</title><polygon points="0 0 0 18.64 14.65 9.36 0 0"/></svg>

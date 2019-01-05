@@ -1,0 +1,187 @@
+.regularText{
+  color: #E0D4B8;
+}
+
+.paragraph{
+  font-size: 1.5em;
+}
+
+.brownText{
+  color: #281209;
+}
+
+.fullHeight{
+	height: 100%;
+}
+
+.verticalFlex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.toolbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #281209; 
+  padding: 18px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.left{
+   float: left;
+}
+
+.right{
+   float: right;
+}
+
+.title{
+   font-family: CherrySwash, Verdana;
+   font-size: 3em;
+}
+
+ .navItem{
+  font-family: Arial;
+  padding: 9px 16px;
+  float: right;
+}
+
+
+.menuItem{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.navItem:hover:not(.active) {
+    border-bottom: 4px solid #E0D4B8;
+}
+
+.active{
+    border-bottom: 4px solid #E0D4B8;
+}
+
+.content{
+   flex: 1;
+   background-color: #281209;
+   padding-top: 80px;
+   overflow: hidden;
+   position: relative;
+   min-height:800px; 
+}
+
+.content img{
+   opacity: 0.2;
+   margin: 0 auto;
+   width: 100%;
+
+
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   user-drag: none; 
+   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.display {
+	z-index: 2;
+    position: relative;
+	left: 0;
+	right: 0;
+	display: block;
+	width: 50%;
+	top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.displayText{
+	font-size: 5em;
+}
+
+.button{
+   margin-top: 10px;
+   width: 400px;
+   font-size: 4em;
+   background-color: #B2520C;
+   border-radius: 25px;
+   border: 2px solid #281209;
+}
+
+.button:hover{
+   background-color: #E0D4B8;
+}
+
+
+.footer{
+   z-index: 5;
+   background-color: #69300F;
+   flex-basis: 300px;
+   min-height: 200px;
+}
+
+.footerTitle{
+   text-align: center;
+   font-size: 2em;
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+
+.footerList{
+    float: left;
+    list-style: none;
+    position: relative;
+    left: 50%;
+}
+
+.footerList li{
+	display: block;
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+.footerItem{
+  font-family: Arial;
+  padding: 9px 16px;
+  text-decoration: none;
+}
+
+.footerItem:hover{
+    border-bottom: 4px solid #E0D4B8;
+}
+
+/*============================ABOUT================================*/
+
+
+.aboutDisplay{
+	z-index: 2;
+	left: 0;
+	right: 0;
+	display: block;
+	width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+}
+
+.paragraphText{
+	width: 50%;
+}
+
+.aboutDisplay div{
+	padding-bottom: 70px;
+}
+
+
