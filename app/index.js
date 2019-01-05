@@ -13,7 +13,9 @@ import './styles/reset.css';
 import './styles/app.css';
 import './styles/queries.css';
 
-
+/**
+React router allows for client side routing
+*/
 const routing = (
   <Router>
     <div className="fullHeight">
